@@ -4,12 +4,12 @@ dir=exp/mono
 feat=feat/train.39.cmvn.ark
 
 ### parameters that you can modify
-numiters=10                                    # Number of iterations of training
+numiters=5                                    # Number of iterations of training
 maxiterinc=4                                  # Last iter to increase #Gauss on.
 numgauss=1                                    # Initial num-Gauss (must be more than #states=3*phones).
 totgauss=5                                    # Target #Gaussians.
 incgauss=$[($totgauss-$numgauss)/$maxiterinc] # per-iter increment for #Gauss
-realign_iters="1 2 3 4 5";
+realign_iters="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20";
 scale_opts="--transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1"
 ###
 
@@ -98,7 +98,7 @@ while [ $iter -lt $numiters ]; do
 			log=$dir/log/align.$x.log
 			echo "      output -> $dir/$x.ali"
 			echo "      log -> $log"
-			gmm-align-compiled $scale_opts --beam=$beam --retry-beam=$[$beam*4] $dir/$x.mdl \
+			gmm-align-compiled $scale_opts --beam=$beam --retry-beam=$[$beam*5] $dir/$x.mdl \
 				ark:$dir/train.graph "ark,s,cs:$feat" \
 				ark:$dir/$x.ali 2> $log
 			touch $dir/log/done.$x.ali

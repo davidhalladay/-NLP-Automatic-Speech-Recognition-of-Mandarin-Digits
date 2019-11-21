@@ -1,4 +1,4 @@
-gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=6 --retry-beam=24 exp/mono/01.mdl ark:exp/mono/train.graph ark,s,cs:feat/train.39.cmvn.ark ark:exp/mono/01.ali 
+gmm-align-compiled --transition-scale=1.0 --acoustic-scale=0.1 --self-loop-scale=0.1 --beam=6 --retry-beam=30 exp/mono/01.mdl ark:exp/mono/train.graph ark,s,cs:feat/train.39.cmvn.ark ark:exp/mono/01.ali 
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi001-sen_0000
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi001-sen_0001
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi001-sen_0002
@@ -934,6 +934,7 @@ LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-f
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi003-sen_0061
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi003-sen_0062
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi003-sen_0063
+WARNING (gmm-align-compiled[5.5.0~1-d97f]:AlignUtteranceWrapper():decoder-wrappers.cc:501) Retrying utterance astmic-fsi003-sen_0063 with beam 30
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi003-sen_0064
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi003-sen_0065
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi003-sen_0066
@@ -1492,6 +1493,7 @@ LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-f
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi005-sen_0108
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi005-sen_0109
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi005-sen_0110
+WARNING (gmm-align-compiled[5.5.0~1-d97f]:AlignUtteranceWrapper():decoder-wrappers.cc:501) Retrying utterance astmic-fsi005-sen_0110 with beam 30
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi005-sen_0111
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi005-sen_0112
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi005-sen_0113
@@ -1941,6 +1943,7 @@ LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-f
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0009
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0010
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0011
+WARNING (gmm-align-compiled[5.5.0~1-d97f]:AlignUtteranceWrapper():decoder-wrappers.cc:501) Retrying utterance astmic-fsi007-sen_0011 with beam 30
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0012
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0013
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0014
@@ -2004,6 +2007,7 @@ LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-f
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0072
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0073
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0074
+WARNING (gmm-align-compiled[5.5.0~1-d97f]:AlignUtteranceWrapper():decoder-wrappers.cc:501) Retrying utterance astmic-fsi007-sen_0074 with beam 30
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0075
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0076
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0077
@@ -2238,6 +2242,6 @@ LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-f
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0306
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0307
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:127) astmic-fsi007-sen_0308
-LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -105.157 over 255857 frames.
-LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:137) Retried 0 out of 2239 utterances.
+LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:135) Overall log-likelihood per frame is -103.456 over 255857 frames.
+LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:137) Retried 4 out of 2239 utterances.
 LOG (gmm-align-compiled[5.5.0~1-d97f]:main():gmm-align-compiled.cc:139) Done 2239, errors on 0
